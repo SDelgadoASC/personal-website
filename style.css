@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+}
+
+nav {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav a {
+    color: black;
+    font-size: 20px;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    /* background-image: url(https://media.giphy.com/media/xUA7bfDro97ipc4fu0/giphy.gif); */
+    background-image: url(https://images7.alphacoders.com/346/346629.jpg);
+    /* url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/8f473995-16da-4011-984a-824ae1d0e740/d25fl2s-ba1f65d3-6736-4d2c-aeed-4ef13da21aff.jpg); */
+    background-size: cover;
+}
+
+
+.header {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    /*if you change if to 30 it ill be as in the begginign, ust the header*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header h1 {
+    background-color: rgba(252, 252, 252, 0.637);
+
+}
+
+.aboutme {
+    background-color: white;
+    width: 100%;
+    height: 50%;
+}
